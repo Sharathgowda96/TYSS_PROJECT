@@ -55,10 +55,10 @@
 # for i in range(0, len(tup)):
 #     print(tup[i], end=" ")
 # print()
-
+#
 # set_ = {"python", "hello", "hai"}    ## check it
 # for i in set_:
-#     print(set_, end=" ")
+#     print(i, end=" ")
 
 
 '''[DICTIONARY type ]'''
@@ -66,7 +66,7 @@
 # d = {"one": 1, "two": 2, "three": 3}
 # for i in d:
 #     print(i, d[i], sep="-->")
-#
+# #
 #     # (or)
 #
 # d = {"one": 1, "two": 2, "three": 3}
@@ -105,7 +105,7 @@
 
 
 '''(9) wap to traverse to a string in reverse order'''
-string = "sharath"
+# string = "sharath"
 # for i in range(len(string)-1, -1, -1):
 #     print(string[i])
 
@@ -136,9 +136,18 @@ string = "sharath"
 # for i in range(0, len(a), 2):
 #     print(a[i])
 # print()
-#
+
+#            (or)
+
 # for i in a[::2]:
 #     print(i, end=" ")
+
+#             (or)
+
+# a="sharath"
+# for i in range(0, len(a)):
+#     if i%2==0:
+#         print(a[i])
 
 
 '''(12) wap to print the digit present inside the string'''
@@ -154,12 +163,12 @@ string = "sharath"
 
 
 '''(13) wap to count the number of digits present inside the string'''
-s = "hello 123 %sharath%"
-count = 0
-for i in s:
-    if "0" <= i <= "9":
-        count+=1
-print(count)
-print()
+# s = "hello 123 %sharath%"
+# count = 0
+# for i in s:
+#     if "0" <= i <= "9":    #if i.isdigit():
+#         count+=1
+# print(count)
+# print()
 
 
